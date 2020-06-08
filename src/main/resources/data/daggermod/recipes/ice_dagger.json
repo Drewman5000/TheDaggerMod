@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " B ",
+        "H  "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "tag": "minecraft:ice"
+        },
+		"H":
+		{
+			"tag": "forge:rods/wooden"
+		}
+    },
+    
+    "result":
+    {
+        "item": "daggermod:ice_dagger",
+        "count": 1
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " B ",
+        "H  "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:cobblestone"
+        },
+		"H":
+		{
+			"tag": "forge:rods/wooden"
+		}
+    },
+    
+    "result":
+    {
+        "item": "daggermod:andesite_dagger",
+        "count": 1
+    }
+}

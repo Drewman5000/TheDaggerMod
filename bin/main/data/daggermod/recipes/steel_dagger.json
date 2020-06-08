@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " B ",
+        "H  "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "daggermod:steel_ingot"
+        },
+		"H":
+		{
+			"tag": "forge:rods/wooden"
+		}
+    },
+    
+    "result":
+    {
+        "item": "daggermod:steel_dagger",
+        "count": 1
+    }
+}

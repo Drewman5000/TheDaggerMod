@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " B ",
+        "H  "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:granite"
+        },
+		"H":
+		{
+			"tag": "forge:rods/wooden"
+		}
+    },
+    
+    "result":
+    {
+        "item": "daggermod:granite_dagger",
+        "count": 1
+    }
+}

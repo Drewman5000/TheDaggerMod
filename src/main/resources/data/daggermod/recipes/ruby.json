@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "daggermod:ruby_block"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "daggermod:ruby",
+        "count": 9
+    }
+}

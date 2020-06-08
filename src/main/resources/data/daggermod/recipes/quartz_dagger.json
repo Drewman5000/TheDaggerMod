@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        " B ",
+        "H  "
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "minecraft:quartz"
+        },
+		"H":
+		{
+			"tag": "forge:rods/wooden"
+		}
+    },
+    
+    "result":
+    {
+        "item": "daggermod:quartz_dagger",
+        "count": 1
+    }
+}

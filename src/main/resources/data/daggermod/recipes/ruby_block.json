@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RRR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "daggermod:ruby"
+        }
+    },
+    
+    "result":
+    {
+        "item": "daggermod:ruby_block",
+        "count": 1
+    }
+}

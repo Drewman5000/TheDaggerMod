@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "daggermod:steel_ingot"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "daggermod:steel_nugget",
+        "count": 9
+    }
+}

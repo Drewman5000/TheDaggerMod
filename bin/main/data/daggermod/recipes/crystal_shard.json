@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "daggermod:crystal_block"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "daggermod:crystal_shard",
+        "count": 9
+    }
+}

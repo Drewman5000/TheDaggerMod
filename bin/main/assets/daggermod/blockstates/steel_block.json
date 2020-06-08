@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "daggermod:block/steel_block" }
+  }
+}

@@ -1,0 +1,179 @@
+[07Jun2020 10:17:24.760] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, /Users/andrewhyland/.gradle/caches/forge_gradle/assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[07Jun2020 10:17:24.765] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_251 by Oracle Corporation
+[07Jun2020 10:17:25.014] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[07Jun2020 10:17:26.598] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/andrewhyland/.gradle/caches/forge_gradle/assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[07Jun2020 10:17:28.561] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[07Jun2020 10:17:38.960] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.1 build 12
+[07Jun2020 10:17:40.114] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[07Jun2020 10:17:40.114] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[07Jun2020 10:17:43.572] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[07Jun2020 10:17:43.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[07Jun2020 10:17:44.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[07Jun2020 10:17:45.509] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: daggermod:blockstates/ruby_ore_block.json: java.io.FileNotFoundException: daggermod:blockstates/ruby_ore_block.json
+[07Jun2020 10:17:45.510] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'daggermod:blockstates/ruby_ore_block.json' missing model for variant: 'daggermod:ruby_ore_block#'
+[07Jun2020 10:17:45.828] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:stone_dagger#inventory' referenced from: daggermod:stone_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/stone_dagger.json
+[07Jun2020 10:17:45.829] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:glass_dagger#inventory' referenced from: daggermod:glass_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/glass_dagger.json
+[07Jun2020 10:17:45.829] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:emerald_dagger#inventory' referenced from: daggermod:emerald_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/emerald_dagger.json
+[07Jun2020 10:17:45.830] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:diamond_dagger#inventory' referenced from: daggermod:diamond_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/diamond_dagger.json
+[07Jun2020 10:17:45.830] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:gold_dagger#inventory' referenced from: daggermod:gold_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/gold_dagger.json
+[07Jun2020 10:17:45.850] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:obsidian_dagger#inventory' referenced from: daggermod:obsidian_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/obsidian_dagger.json
+[07Jun2020 10:17:45.850] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:andesite_dagger#inventory' referenced from: daggermod:andesite_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/andesite_dagger.json
+[07Jun2020 10:17:45.851] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:diorite_dagger#inventory' referenced from: daggermod:diorite_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/diorite_dagger.json
+[07Jun2020 10:17:45.851] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:granite_dagger#inventory' referenced from: daggermod:granite_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/granite_dagger.json
+[07Jun2020 10:17:45.851] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:wood_dagger#inventory' referenced from: daggermod:wood_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/wood_dagger.json
+[07Jun2020 10:17:45.851] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:hardened_wood_dagger#inventory' referenced from: daggermod:hardened_wood_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/hardened_wood_dagger.json
+[07Jun2020 10:17:45.851] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:redstone_dagger#inventory' referenced from: daggermod:redstone_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/redstone_dagger.json
+[07Jun2020 10:17:45.851] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:crystal_dagger#inventory' referenced from: daggermod:crystal_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/crystal_dagger.json
+[07Jun2020 10:17:45.852] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:steel_dagger#inventory' referenced from: daggermod:steel_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/steel_dagger.json
+[07Jun2020 10:17:45.852] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:lapis_dagger#inventory' referenced from: daggermod:lapis_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/lapis_dagger.json
+[07Jun2020 10:17:45.852] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:quartz_dagger#inventory' referenced from: daggermod:quartz_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/quartz_dagger.json
+[07Jun2020 10:17:45.852] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:clay_dagger#inventory' referenced from: daggermod:clay_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/clay_dagger.json
+[07Jun2020 10:17:45.852] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:ice_dagger#inventory' referenced from: daggermod:ice_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/ice_dagger.json
+[07Jun2020 10:17:45.852] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:feather_dagger#inventory' referenced from: daggermod:feather_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/feather_dagger.json
+[07Jun2020 10:17:45.853] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:bread_knife#inventory' referenced from: daggermod:bread_knife#inventory: java.io.FileNotFoundException: daggermod:models/item/bread_knife.json
+[07Jun2020 10:17:45.874] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:cactus_dagger#inventory' referenced from: daggermod:cactus_dagger#inventory: java.io.FileNotFoundException: daggermod:models/item/cactus_dagger.json
+[07Jun2020 10:17:45.874] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:steak_knife#inventory' referenced from: daggermod:steak_knife#inventory: java.io.FileNotFoundException: daggermod:models/item/steak_knife.json
+[07Jun2020 10:17:45.939] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'daggermod:ruby_ore_block#inventory' referenced from: daggermod:ruby_ore_block#inventory: java.io.FileNotFoundException: daggermod:models/item/ruby_ore_block.json
+[07Jun2020 10:17:46.110] [Server-Worker-8/ERROR] [net.minecraft.client.renderer.texture.AtlasTexture/]: Using missing texture, unable to load daggermod:textures/items/steel_nugget.png : java.io.FileNotFoundException: daggermod:textures/items/steel_nugget.png
+[07Jun2020 10:17:47.002] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[07Jun2020 10:17:47.004] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[07Jun2020 10:17:47.222] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[07Jun2020 10:17:47.233] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[07Jun2020 10:17:47.233] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[07Jun2020 10:17:47.234] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[07Jun2020 10:17:47.235] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[07Jun2020 10:17:47.235] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[07Jun2020 10:17:47.236] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[07Jun2020 10:17:47.655] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[07Jun2020 10:17:47.656] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[07Jun2020 10:17:47.656] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[07Jun2020 10:17:48.168] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[07Jun2020 10:18:06.732] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07Jun2020 10:18:06.733] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Jun2020 10:18:06.734] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Jun2020 10:18:06.734] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[07Jun2020 10:18:06.735] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[07Jun2020 10:18:07.084] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[07Jun2020 10:18:07.084] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[07Jun2020 10:18:07.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./saves/New World Ore Gen/serverconfig/forge-server.toml is not correct. Correcting
+[07Jun2020 10:18:07.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[07Jun2020 10:18:07.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[07Jun2020 10:18:07.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[07Jun2020 10:18:07.185] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[07Jun2020 10:18:07.250] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[07Jun2020 10:18:07.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[07Jun2020 10:18:07.495] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, main
+[07Jun2020 10:18:07.826] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe daggermod:ice_dagger
+com.google.gson.JsonSyntaxException: Unknown item tag 'minecraft:ice'
+	at net.minecraft.item.crafting.Ingredient.deserializeItemList(Ingredient.java:221) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[?:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[?:?]
+	at net.minecraft.item.crafting.Ingredient.deserialize(Ingredient.java:187) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeKey(ShapedRecipe.java:276) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe.access$000(ShapedRecipe.java:24) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:300) ~[?:?]
+	at net.minecraft.item.crafting.ShapedRecipe$Serializer.read(ShapedRecipe.java:296) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:137) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_251]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:759) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOneInternal(MinecraftServer.java:742) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:736) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1583) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:457) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:77) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:99) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:638) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_251]
+[07Jun2020 10:18:07.854] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[07Jun2020 10:18:08.751] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[07Jun2020 10:18:12.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[07Jun2020 10:18:12.901] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[07Jun2020 10:18:13.329] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[07Jun2020 10:18:13.842] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[07Jun2020 10:18:14.340] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
+[07Jun2020 10:18:14.826] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[07Jun2020 10:18:15.418] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
+[07Jun2020 10:18:15.903] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
+[07Jun2020 10:18:16.329] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 12%
+[07Jun2020 10:18:16.841] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
+[07Jun2020 10:18:17.336] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
+[07Jun2020 10:18:17.831] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[07Jun2020 10:18:18.332] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[07Jun2020 10:18:18.830] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 40%
+[07Jun2020 10:18:19.330] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 44%
+[07Jun2020 10:18:19.831] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
+[07Jun2020 10:18:20.327] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 55%
+[07Jun2020 10:18:20.834] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 61%
+[07Jun2020 10:18:21.334] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 67%
+[07Jun2020 10:18:21.952] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
+[07Jun2020 10:18:22.331] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
+[07Jun2020 10:18:22.826] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[07Jun2020 10:18:23.355] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[07Jun2020 10:18:23.836] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[07Jun2020 10:18:23.933] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 11109 ms
+[07Jun2020 10:18:24.160] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Jun2020 10:18:24.161] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Jun2020 10:18:24.163] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[07Jun2020 10:18:25.874] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[07Jun2020 10:18:25.921] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@9b08d85
+[07Jun2020 10:18:25.937] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:9a9383b1] logged in with entity id 218 at (-189.5, 68.0, 153.5)
+[07Jun2020 10:18:25.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[07Jun2020 10:18:26.262] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07Jun2020 10:18:26.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World Ore Gen'/minecraft:overworld
+[07Jun2020 10:18:26.615] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[07Jun2020 10:18:28.428] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2412ms or 48 ticks behind
+[07Jun2020 10:18:33.765] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07Jun2020 10:18:33.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World Ore Gen'/minecraft:overworld
+[07Jun2020 10:18:54.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[07Jun2020 10:18:54.451] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Spectator Mode
+[07Jun2020 10:19:17.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[07Jun2020 10:19:17.144] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[07Jun2020 10:19:38.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Diamond Pickaxe] to Dev]
+[07Jun2020 10:19:38.610] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 1 [Diamond Pickaxe] to Dev
+[07Jun2020 10:19:42.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[07Jun2020 10:19:42.680] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Survival Mode
+[07Jun2020 10:19:50.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Stone Age]
+[07Jun2020 10:19:50.889] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Stone Age]
+[07Jun2020 10:19:50.935] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 19 advancements
+[07Jun2020 10:21:09.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[07Jun2020 10:21:09.227] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[07Jun2020 10:21:57.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[07Jun2020 10:21:57.064] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Spectator Mode
+[07Jun2020 10:22:38.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[07Jun2020 10:22:38.624] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[07Jun2020 10:23:10.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[07Jun2020 10:23:10.948] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Spectator Mode
+[07Jun2020 10:23:27.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[07Jun2020 10:23:27.493] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[07Jun2020 10:24:39.565] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[07Jun2020 10:24:39.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World Ore Gen'/minecraft:overworld
+[07Jun2020 10:24:40.323] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[07Jun2020 10:24:40.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[07Jun2020 10:24:40.326] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[07Jun2020 10:24:40.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Jun2020 10:24:40.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Jun2020 10:24:40.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Jun2020 10:24:40.368] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New World Ore Gen'/minecraft:overworld
+[07Jun2020 10:24:40.755] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World Ore Gen): All chunks are saved
+[07Jun2020 10:24:40.762] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New World Ore Gen): All chunks are saved
+[07Jun2020 10:24:42.072] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
