@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "daggermod:block/ruby_ore_block" }
+  }
+}

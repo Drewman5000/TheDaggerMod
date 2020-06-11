@@ -28,8 +28,10 @@
 	"item.daggermod.steak_knife": "Steak Knife",
 	"item.daggermod.steel_ingot": "Steel Ingot",
 	"item.daggermod.steel_nugget": "Steel Nugget",
+	"item.daggermod.crystal_shard": "Crystal Shard",
 	"block.daggermod.ruby_block": "Block of Ruby",
 	"block.daggermod.crystal_block": "Block of Crystal",
 	"block.daggermod.steel_block": "Block of Steel",
+	"block.daggermod.ruby_ore_block": "Ruby Ore",
 	"itemGroup.daggerModTab": "Dagger Mod"
 }
