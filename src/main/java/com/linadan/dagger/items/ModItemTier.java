@@ -4,7 +4,6 @@ import java.util.function.Supplier;
 
 import com.linadan.dagger.util.RegistryHandler;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;

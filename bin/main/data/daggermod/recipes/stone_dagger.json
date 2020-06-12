@@ -12,7 +12,7 @@
     {
         "B":
         {
-            "item": "minecraft:cobblestone"
+            "item": "minecraft:stone"
         },
 		"H":
 		{
@@ -22,7 +22,7 @@
     
     "result":
     {
-        "item": "daggermod:andesite_dagger",
+        "item": "daggermod:stone_dagger",
         "count": 1
     }
 }

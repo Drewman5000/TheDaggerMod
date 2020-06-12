@@ -3,14 +3,14 @@
     
     "pattern":
     [
-        "RRR",
-        "RRR",
-        "RRR"
+        "NNN",
+        "NNN",
+        "NNN"
     ],
     
     "key":
     {
-        "R":
+        "N":
         {
             "item": "daggermod:steel_nugget"
         }
