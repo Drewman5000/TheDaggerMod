@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "daggermod:steel_dagger"
+  },
+  {
+	"item": "daggermod:steak_knife"	
+  },
+  "result": "daggermod:steel_nugget",
+  "experience": 0.2,
+  "cookingtime": 75
+}
