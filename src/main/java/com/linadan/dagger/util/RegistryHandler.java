@@ -11,9 +11,9 @@ import com.linadan.dagger.items.ItemBase;
 import com.linadan.dagger.items.ModItemTier;
 
 import net.minecraft.block.Block;
-import net.minecraft.item.IItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemTier;
+import net.minecraft.item.WrittenBookItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,6 +33,8 @@ public class RegistryHandler {
 	public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
 	public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", ItemBase::new);
 	public static final RegistryObject<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard", ItemBase::new);
+	public static final RegistryObject<Item> GUIDE_BOOK = ITEMS.register("guide_book", ItemBase::new);
+	//public static final Item WRITTEN_BOOK = register("written_book", new WrittenBookItem((new Item.Properties()).maxStackSize(16)));
 	
 	// Tools - Weapons first because that's the order I made them.
 	// public SwordItem(IItemTier tier, int attackDamageIn, float attackSpeedIn, Item.Properties builder)
