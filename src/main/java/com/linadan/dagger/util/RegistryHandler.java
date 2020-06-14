@@ -47,7 +47,7 @@ public class RegistryHandler {
 	public static final RegistryObject<Item> GOLD_DAGGER = ITEMS.register("gold_dagger", () -> new DaggerItem(ItemTier.GOLD, 1, 3.5f, new Item.Properties().group(DaggerMod.TAB)));
 	public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger", () -> new DaggerItem(ItemTier.IRON, 1, 3.1f, new Item.Properties().group(DaggerMod.TAB)));
 	public static final RegistryObject<Item> OBSIDIAN_DAGGER = ITEMS.register("obsidian_dagger", () -> new DaggerItem(ModItemTier.OBSIDIAN_TIER, 1, 3.8f, new Item.Properties().group(DaggerMod.TAB)));
-	public static final RegistryObject<Item> ANDESITE_DAGGER = ITEMS.register("andesite_dagger", () -> new DaggerItem(ModItemTier.ANDESITE_TIER, 0, 3.0f, new Item.Properties().group(DaggerMod.TAB)));
+	public static final RegistryObject<Item> ANDESITE_DAGGER = ITEMS.register("andesite_dagger", () -> new DaggerItem(ModItemTier.ANDESITE_TIER, -1, 3.0f, new Item.Properties().group(DaggerMod.TAB)));
 	public static final RegistryObject<Item> DIORITE_DAGGER = ITEMS.register("diorite_dagger", () -> new DaggerItem(ModItemTier.DIORITE_TIER, 0, 3.0f, new Item.Properties().group(DaggerMod.TAB)));
 	public static final RegistryObject<Item> GRANITE_DAGGER = ITEMS.register("granite_dagger", () -> new DaggerItem(ModItemTier.GRANITE_TIER, 0, 1.8f, new Item.Properties().group(DaggerMod.TAB)));
 	public static final RegistryObject<Item> WOOD_DAGGER = ITEMS.register("wood_dagger", () -> new DaggerItem(ItemTier.WOOD, 1, 3.5f, new Item.Properties().group(DaggerMod.TAB)));
