@@ -55,7 +55,7 @@ public class DaggerMod
     	@Override 
     	public ItemStack createIcon() {
     		// change this to a wooden dagger icon
-    		return new ItemStack(RegistryHandler.BONE_DAGGER.get());
+    		return new ItemStack(RegistryHandler.WOOD_DAGGER.get());
     	}
     };
 }
