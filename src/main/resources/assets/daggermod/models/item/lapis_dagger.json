@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "daggermod:items/andesite_dagger"
+        "layer0": "daggermod:items/lapis_dagger"
     }
 }
