@@ -20,6 +20,7 @@ public class DaggerItem extends SwordItem {
 		super(tier, attackDamageIn, attackSpeedIn, properties);
 	      this.attackSpeed = attackSpeedIn;
 	      this.attackDamage = (float)attackDamageIn + tier.getAttackDamage();
+	      //this.isIn(DAGGERS); // Need to add a dagger tag here? 
 	}
 	
 
