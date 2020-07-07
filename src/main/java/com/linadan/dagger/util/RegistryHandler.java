@@ -35,6 +35,7 @@ public class RegistryHandler {
 	public static final RegistryObject<Item> CRYSTAL_SHARD = ITEMS.register("crystal_shard", ItemBase::new);
 	public static final RegistryObject<Item> GUIDE_BOOK = ITEMS.register("guide_book", ItemBase::new);
 	public static final RegistryObject<Item> MEAT_PARTS = ITEMS.register("meat_parts", ItemBase::new);
+	public static final RegistryObject<Item> BUTTERY_SLOP = ITEMS.register("buttery_slop", ItemBase::new);
 	//public static final Item WRITTEN_BOOK = register("written_book", new WrittenBookItem((new Item.Properties()).maxStackSize(16)));
 	
 	// Tools - Weapons first because that's the order I made them.
