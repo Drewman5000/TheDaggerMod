@@ -27,10 +27,10 @@ public class ModOreGen {
 				Feature.ORE
 					.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.CRYSTAL_BLOCK.get().getDefaultState(), 12))
 					.withPlacement(crystalConfig));
-			ConfiguredPlacement rubyOreConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(20, 7, 5, 58));
+			ConfiguredPlacement rubyOreConfig = Placement.COUNT_RANGE.configure(new CountRangeConfig(10, 7, 5, 58));
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
 				Feature.ORE
-					.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE_BLOCK.get().getDefaultState(), 18))
+					.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE_BLOCK.get().getDefaultState(), 2))
 					.withPlacement(rubyOreConfig));
 		}
 	}
