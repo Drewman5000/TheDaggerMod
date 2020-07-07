@@ -71,6 +71,12 @@ public enum ModItemTier implements IItemTier {
 	CACTUS_TIER(0, 50, 2.0f, 0.0f, 4, () -> {
 		return Ingredient.fromItems(Items.CACTUS);
 		}),
+	PHANTOM_MEMBRANE_TIER(0, 50, 2.0f, 0.0f, 4, () -> { //adjust numbers here
+		return Ingredient.fromItems(Items.PHANTOM_MEMBRANE);
+		}),
+	BONE_MEAL_TIER(0, 50, 2.0f, 0.0f, 4, () -> { //adjust numbers here
+		return Ingredient.fromItems(Items.BONE_MEAL);
+		}),
 	STEAK_KNIFE_TIER(2, 235, 4.2f, 1.8f, 10, () -> {
 		return Ingredient.fromItems(RegistryHandler.STEEL_INGOT.get());
 		});
